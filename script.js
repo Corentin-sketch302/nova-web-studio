@@ -16,7 +16,7 @@ form.addEventListener('submit', event => {
   event.preventDefault();
   const status = document.getElementById('form-status');
   // Remplacer cette adresse par votre adresse professionnelle AVANT d'activer le contact.
-  const destination = 'corentingalletdesaintaurin@gmail.com';
+  const destination =  'corentingalletdesaintaurin@gmail.com';
   if (destination === 'VOTRE-EMAIL@EXEMPLE.COM') {
     status.textContent = 'Formulaire en démonstration : configurez votre adresse e-mail dans script.js avant de recevoir des demandes.';
     return;
